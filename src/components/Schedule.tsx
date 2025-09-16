@@ -11,9 +11,9 @@ const Schedule = () => {
       color: "bg-blue-500",
       events: [
         {
-          time: "6:00 PM",
+          time: "10:00 AM",
           title: "Registration & Networking",
-          description: "Check-in, meet fellow participants, and enjoy dinner",
+          description: "Check-in, meet fellow participants, and networking",
           icon: Coffee
         },
         {

@@ -85,7 +85,7 @@ const Hero = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Date & Time</h4>
                     <p className="text-gray-600">October 31 - November 2, 2025</p>
-                    <p className="text-gray-600">Friday 6:00 PM - Sunday 9:00 PM</p>
+                    <p className="text-gray-600">Friday 10:00 AM - Sunday 9:00 PM</p>
                   </div>
                 </div>
                 

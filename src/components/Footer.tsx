@@ -9,10 +9,9 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="md:col-span-2">
             <img
-              src="/IMG-20250714-WA0000.jpg"
+              src="/Logo.jpg"
               alt="Techstars Startup Weekend Visakhapatnam"
-              className="h-16 w-auto mb-6 filter brightness-0 invert object-cover"
-              style={{ objectPosition: 'center', clipPath: 'inset(15% 0 15% 0)' }}
+              className="h-16 w-auto mb-6 filter brightness-0 invert object-contain"
             />
             <p className="text-gray-300 mb-6 leading-relaxed">
               Techstars Startup Weekend Visakhapatnam brings together entrepreneurs, 
@@ -72,9 +71,22 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2025 Startup Weekend Visakhapatnam. All rights reserved.
-          </p>
+          <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">
+            <p className="text-gray-400 text-sm mb-2">
+              © 2025 Startup Weekend Visakhapatnam. All rights reserved.
+            </p>
+            <p className="text-gray-400 text-sm">
+              Built with ❤️ by{' '}
+              <a 
+                href="https://studio.sted.space" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-green-400 hover:text-green-300 transition-colors underline"
+              >
+                studio.sted.space
+              </a>
+            </p>
+          </div>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">Privacy Policy</a>
             <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">Terms of Service</a>
