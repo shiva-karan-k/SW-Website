@@ -35,13 +35,13 @@ const Schedule = () => {
           icon: Coffee
         },
         {
-          time: "8:00 PM",
+          time: "9:00 PM",
           title: "Dinner",
           description: "Refuel with a hearty dinner",
           icon: Coffee
         },
         {
-          time: "11:00 PM",
+          time: "2:00 AM",
           title: "Late Night Snacks",
           description: "Coffee, snacks, and energy for the night owls",
           icon: Coffee
@@ -71,32 +71,44 @@ const Schedule = () => {
           icon: Coffee
         },
         {
-          time: "1:00 PM - 6:00 PM",
+          time: "1:00 PM - 4:00 PM",
           title: "Build Time",
           description: "Develop your MVP with mentor support",
           icon: Code2
         },
         {
-          time: "6:00 PM",
-          title: "Dinner",
-          description: "Team dinner and networking",
+          time: "4:00 PM",
+          title: "Afternoon Snacks",
+          description: "Quick snacks and refreshments",
           icon: Coffee
         },
         {
-          time: "7:00 PM - 11:00 PM",
+          time: "4:30 PM - 9:00 PM",
           title: "Continued Development",
           description: "Keep building your startup",
           icon: Code2
         },
         {
-          time: "11:00 PM",
+          time: "9:00 PM",
+          title: "Dinner",
+          description: "Team dinner and networking",
+          icon: Coffee
+        },
+        {
+          time: "10:00 PM - 2:00 AM",
+          title: "All-Night Hacking",
+          description: "Intensive development session",
+          icon: Code2
+        },
+        {
+          time: "2:00 AM",
           title: "Late Night Snacks",
           description: "Pizza, coffee, and energy drinks for all-nighters",
           icon: Coffee
         },
         {
-          time: "12:00 AM - 8:00 AM",
-          title: "All-Night Hacking",
+          time: "2:30 AM - 8:00 AM",
+          title: "Optional Continued Hacking",
           description: "For the dedicated teams pushing through the night",
           icon: Code2
         }
