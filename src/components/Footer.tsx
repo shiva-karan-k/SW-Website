@@ -11,7 +11,7 @@ const Footer = () => {
             <img
               src="/Logo.jpg"
               alt="Techstars Startup Weekend Visakhapatnam"
-              className="h-16 w-auto mb-6 object-contain"
+              className="h-16 w-auto mb-6 object-contain rounded-lg"
             />
             <p className="text-gray-300 mb-6 leading-relaxed">
               Techstars Startup Weekend Visakhapatnam brings together entrepreneurs, 
