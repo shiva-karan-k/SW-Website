@@ -11,27 +11,27 @@ const Schedule = () => {
       color: "bg-blue-500",
       events: [
         {
-          time: "10:00 AM",
+          time: "9:30 AM",
           title: "Registration & Networking",
           description: "Check-in, meet fellow participants, and networking",
           icon: Coffee
         },
         {
-          time: "7:30 PM",
+          time: "12:00 PM",
           title: "Opening Ceremony",
           description: "Welcome, introductions, and event overview",
           icon: Mic
         },
         {
-          time: "8:00 PM",
+          time: "4:00 PM",
           title: "60-Second Pitches",
           description: "Pitch your idea and form teams",
           icon: Presentation
         },
         {
-          time: "10:00 PM",
-          title: "Team Formation",
-          description: "Finalize teams and start planning",
+          time: "6:00 PM",
+          title: "Hacking Begins",
+          description: "Teams start building their startups",
           icon: Coffee
         }
       ]
